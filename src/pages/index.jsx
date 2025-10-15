@@ -3,3 +3,4 @@ export { default as HomePage_xx } from './HomePage_xx';
 export { default as BlogStaticPage_xx } from './BlogStaticPage_xx';
 export { default as BlogLocalJsonPage_xx } from './BlogLocalJsonPage_xx';
 export { default as BlogNodePage_xx } from './BlogNodePage_xx';
+export { default as BookListPage_xx } from './BookListPage_xx';

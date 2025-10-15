@@ -115,6 +115,9 @@ const Navbar_xx = () => {
                 <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
+                      <Link to='/booklist_xx'>W2-BookList_xx</Link>
+                    </li>
+                    <li className='menu-item'>
                       <Link to='/static_xx'>W3-BlogStatic_xx</Link>
                     </li>
                     <li className='menu-item'>
