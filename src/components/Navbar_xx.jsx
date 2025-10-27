@@ -132,8 +132,23 @@ const Navbar_xx = () => {
                   </ul>
                 </div>
               </li>
-              <li className='menu-item'>
-                <Link to='#'>Blog</Link>
+
+              <li className='menu-item dropdown'>
+                <Link to='#'>Tutorials +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t11_xx'>
+                        T11_ErrorExamplePage_xx
+                      </Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t12_xx'>
+                        T12_UseStateBasicsPage_xx
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className='menu-item'>
                 <Link to='#'>Contact</Link>
@@ -261,8 +276,23 @@ const Navbar_xx = () => {
                   </ul>
                 </div>
               </li>
-              <li className='menu-item'>
-                <Link to='#'>Blog</Link>
+
+              <li className='menu-item dropdown'>
+                <Link to='#'>Tutorials +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t11_xx'>
+                        T11_ErrorExamplePage_xx
+                      </Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/tutorials/t12_xx'>
+                        T12_UseStateBasicsPage_xx
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
               </li>
               <li className='menu-item'>
                 <Link to='#'>Contact</Link>

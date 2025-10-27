@@ -7,7 +7,13 @@ import {
   BlogLocalJsonPage_xx,
   BlogNodePage_xx,
   BookListPage_xx,
+  BlogSupaPage_xx,
 } from './pages';
+
+import {
+  T11_ErrorExamplePage_xx,
+  T12_UseStateBasicsPage_xx,
+} from './pages/tutorials';
 
 const router = createBrowserRouter([
   {
@@ -31,8 +37,30 @@ const router = createBrowserRouter([
         element: <BlogNodePage_xx />,
       },
       {
+        path: 'supa_xx',
+        element: <BlogSupaPage_xx />,
+      },
+      {
         path: 'booklist_xx',
         element: <BookListPage_xx />,
+      },
+    ],
+  },
+  {
+    path: '/tutorials',
+    element: <HomeLayoutPage_xx />,
+    children: [
+      {
+        index: true,
+        element: <HomePage_xx />,
+      },
+      {
+        path: 't11_xx',
+        element: <T11_ErrorExamplePage_xx />,
+      },
+      {
+        path: 't12_xx',
+        element: <T12_UseStateBasicsPage_xx />,
       },
     ],
   },
