@@ -2,13 +2,14 @@ import { useState } from 'react';
 
 import blogData_xx from '../assets/data/blogData.json';
 import Blog_xx from '../components/Blog_xx';
+import Wrapper from '../assets/wrappers/Blog2_xx';
 
 const BlogLocalJsonPage_xx = () => {
   const [name, setName] = useState('htchung');
   const [id, setId] = useState(123456789);
   const [blogs_xx, setBlogs_xx] = useState(blogData_xx);
   return (
-    <>
+    <Wrapper>
       <section className='blogs'>
         <div className='section-title'>
           <h2>
@@ -31,7 +32,7 @@ const BlogLocalJsonPage_xx = () => {
           })}
         </div>
       </section>
-    </>
+    </Wrapper>
   );
 };
 

@@ -127,7 +127,10 @@ const Navbar_xx = () => {
                       <Link to='/node_xx'>W4-BlogNode_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>W5-BlogSupa_xx</Link>
+                      <Link to='#'>W6-BlogSupa_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/localjson2_xx'>W7-BlogLocalJson2_xx</Link>
                     </li>
                   </ul>
                 </div>
@@ -258,20 +261,26 @@ const Navbar_xx = () => {
               </li>
 
               <li className='menu-item dropdown'>
-                <Link to='#'>Services +</Link>
-                <div className='sub-menu-wrapper'>
+                <Link to='#'>Demo +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
                   <ul className='sub-menu'>
                     <li className='menu-item'>
-                      <Link to='#'>Service 1</Link>
+                      <Link to='/booklist_xx'>W2-BookList_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>Service 2</Link>
+                      <Link to='/static_xx'>W3-BlogStatic_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>Service 3</Link>
+                      <Link to='/localjson_xx'>W3-BlogLocalJson_xx</Link>
                     </li>
                     <li className='menu-item'>
-                      <Link to='#'>Service 4</Link>
+                      <Link to='/node_xx'>W4-BlogNode_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='#'>W6-BlogSupa_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/localjson2_xx'>W7-BlogLocalJson2_xx</Link>
                     </li>
                   </ul>
                 </div>
