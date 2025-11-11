@@ -23,7 +23,7 @@ const Navbar_xx = () => {
                   Home
                 </Link>
               </li>
-
+              {/* 
               <li className='menu-item mega-menu'>
                 <Link to='#'>Mega menu +</Link>
                 <div className='mega-menu-wrapper slideInUp'>
@@ -108,7 +108,7 @@ const Navbar_xx = () => {
                     </ul>
                   </div>
                 </div>
-              </li>
+              </li> */}
 
               <li className='menu-item dropdown'>
                 <Link to='#'>Demo +</Link>
@@ -149,6 +149,25 @@ const Navbar_xx = () => {
                       <Link to='/tutorials/t12_xx'>
                         T12_UseStateBasicsPage_xx
                       </Link>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li className='menu-item dropdown'>
+                <Link to='#'>Midterm +</Link>
+                <div className='sub-menu-wrapper slideInUp'>
+                  <ul className='sub-menu'>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p1_xx'>P1_StaticPage_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p2_xx'>P2_StaticPage2_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p3_xx'>P3_NodePage_xx</Link>
+                    </li>
+                    <li className='menu-item'>
+                      <Link to='/midterm/p4_xx'>P4_SupaPage_xx</Link>
                     </li>
                   </ul>
                 </div>

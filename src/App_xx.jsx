@@ -16,6 +16,15 @@ import {
   T12_UseStateBasicsPage_xx,
 } from './pages/tutorials';
 
+import {
+  MidtermLayoutPage_xx,
+  MidtermHomePage_xx,
+  P1_StaticPage_xx,
+  P2_StaticPage_xx,
+  P3_NodePage_xx,
+  P4_SupaPage_xx,
+} from './pages/midterm';
+
 const router = createBrowserRouter([
   {
     path: '/',
@@ -66,6 +75,36 @@ const router = createBrowserRouter([
       {
         path: 't12_xx',
         element: <T12_UseStateBasicsPage_xx />,
+      },
+    ],
+  },
+  {
+    path: '/midterm',
+    element: <MidtermLayoutPage_xx />,
+    children: [
+      {
+        index: true,
+        element: <MidtermHomePage_xx />,
+      },
+      {
+        path: 'p1_xx',
+        element: <P1_StaticPage_xx />,
+      },
+      {
+        path: 'womens_xx',
+        element: <P1_StaticPage_xx />,
+      },
+      {
+        path: 'p2_xx',
+        element: <P2_StaticPage_xx />,
+      },
+      {
+        path: 'p3_xx',
+        element: <P3_NodePage_xx />,
+      },
+      {
+        path: 'p4_xx',
+        element: <P4_SupaPage_xx />,
       },
     ],
   },
